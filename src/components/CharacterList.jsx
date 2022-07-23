@@ -34,7 +34,7 @@ const CharacterList = (props) => {
       <div className="row">
       {characters.map((c) => {
         return (
-            <div className="col-md-4" key={c.id}>
+            <div className="col-md-4 p-3" key={c.id}>
                 <CharacterCard character={c} />
             </div>
         )
